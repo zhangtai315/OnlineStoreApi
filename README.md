@@ -1,2 +1,2 @@
 # OnlineStoreApi
-.net core webapi
+This project is using .net core 6

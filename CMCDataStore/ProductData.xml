@@ -1,0 +1,44 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Product">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Id" type="xs:int" minOccurs="0" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="Description" type="xs:string" minOccurs="0" />
+				<xs:element name="Price" type="xs:decimal" minOccurs="0" />
+				<xs:element name="ImageName" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>          
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Product>
+    <Id>1</Id>
+    <Name>Go Tell the Bees that I am Gone</Name>
+    <Description>The author of the Sunday Times bestselling Outlander series returns with the newest novel in the epic tale.Jamie Fraser and Claire Randall were torn apart by the Jacobite Rising of 1745, and it took them twenty years to find each other again. Now the American Revolution threatens to do the same.</Description>
+    <Price>12.34</Price>
+    <ImageName>go-tell-the-bees-that-i-am-gone.jpg</ImageName>
+  </Product>
+  <Product>
+    <Id>2</Id>
+    <Name>Will</Name>
+    <Description>The 'Event' Autobiography of the Year - a brave, inspiring and wildly entertaining memoir full of self-help lessons for readers, from one of the world's most charismatic and much-loved actors.One of the most dynamic and globally recognized entertainment forces of our time opens up fully about his life, in a brave and inspiring book that traces his learning curve to a place where outer success, inner happiness, and human connection are aligned. Along the way, Will tells the story in full of one of the most amazing rides through the worlds of music and film that anyone has ever had.</Description>
+    <Price>23.45</Price>
+    <ImageName>will.jpg</ImageName>
+  </Product>
+  <Product>
+    <Id>3</Id>
+    <Name>The Christmas Pig</Name>
+    <Description>Jack loves his childhood toy, Dur Pig. DP has always been there for him, through good and bad. Until one Christmas Eve, something terrible happens - DP is lost.</Description>
+    <Price>9.99</Price>
+    <ImageName>the-christmas-pig.jpg</ImageName>
+  </Product>
+  
+</NewDataSet>

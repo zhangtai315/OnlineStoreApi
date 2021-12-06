@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CMCOnlineStoreApi", "CMCOnlineStoreApi\CMCOnlineStoreApi.csproj", "{B0D2C0AB-9D3B-4A7C-9C79-F66A670B8AC5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CMCDataStore", "CMCDataStore\CMCDataStore.csproj", "{1E27191F-DF2C-4A2C-95FC-41B047CA41AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{D2B15599-504C-4400-A7CC-1795AEA6BF99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0D2C0AB-9D3B-4A7C-9C79-F66A670B8AC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0D2C0AB-9D3B-4A7C-9C79-F66A670B8AC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0D2C0AB-9D3B-4A7C-9C79-F66A670B8AC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0D2C0AB-9D3B-4A7C-9C79-F66A670B8AC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E27191F-DF2C-4A2C-95FC-41B047CA41AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E27191F-DF2C-4A2C-95FC-41B047CA41AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E27191F-DF2C-4A2C-95FC-41B047CA41AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E27191F-DF2C-4A2C-95FC-41B047CA41AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2B15599-504C-4400-A7CC-1795AEA6BF99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2B15599-504C-4400-A7CC-1795AEA6BF99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2B15599-504C-4400-A7CC-1795AEA6BF99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2B15599-504C-4400-A7CC-1795AEA6BF99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CFB601D4-0BEB-4C2C-873A-208CC0B9F9FA}
+	EndGlobalSection
+EndGlobal
